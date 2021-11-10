@@ -1,0 +1,75 @@
+
+::ng-deep .card{
+    flex-direction: column;    
+    margin-top:5vh;
+    text-align: right;
+    min-height: 464px;
+    padding: 35px 50px 35px 50px;
+    font: normal normal normal 16px/24px Rubik;
+    box-shadow: 0px 2px 16px #0F5DD936;
+    color: #0C3058BF;
+    h5{
+      font:  normal normal bold 20px/27px Rubik;
+      color: #0C3058;
+    }
+    b{
+      font: normal normal medium 16px/19px Rubik;
+    }
+    a{
+        cursor: pointer;
+        color: #0056D7  !important;
+        &:hover{
+            text-decoration: underline !important;
+    }
+  }
+  .card-footer{
+    background-color: inherit;
+    border: none;
+      text-align: center;
+  }
+  button{
+      font-weight: bold;
+      text-align: center;
+      margin: auto;
+      background-color:white ;
+      color: #0068F5;width: 300px;
+      height: 47px;
+      border: 1px solid #0068F5;
+      border-radius: 8px;
+      &:hover{
+          color: #FFFFFF;
+          background: #0068F5 0% 0% no-repeat padding-box;
+      }
+  }
+}
+
+.icon{
+   width: 96px;
+   height: 95px;
+   align-self: center;
+   &.cards{
+     background: transparent url('../../../assets/img/GroupCards.png') 0% 0% no-repeat padding-box;
+   }
+   &.NFC{
+     background: transparent url('../../../assets/img/GroupIphone.png') 0% 0% no-repeat padding-box;
+   }
+}
+
+::ng-deep .material-icons-outlined{
+    color: #0056D7;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.bubble{
+  border: 1px solid #0C305852;
+  box-shadow: 0px 2px 16px #00000014;
+  b{
+    font: normal normal bold 18px/27px Rubik;
+    color: #0C3058BF !important;
+  }
+  text-align: right;
+  font: normal normal normal 16px/30px Rubik;
+  color: #0C3058 !important;
+
+}

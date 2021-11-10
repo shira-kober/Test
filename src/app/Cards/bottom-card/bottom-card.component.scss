@@ -1,0 +1,14 @@
+@import '../option-card/option-card.component.scss';
+
+.bottom-card{
+    background: #E7EEFC5E 0% 0% no-repeat padding-box;
+  border: 1px solid #0C305854;
+  border-radius: 8px;
+  min-height: 180px;
+  margin-bottom: 5vh;
+  a{
+      font-weight: bold;
+     line-height: 1rem;
+     display: inline-block;
+  }
+}

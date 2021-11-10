@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~material-icons/iconfont/material-icons.css';
+@font-face {
+    font-family: Rubik;
+    src: Local("Calibri");
+}
+html,body{
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    font-family:Rubic,Calibri ;
+    color: #0C3058;
+    text-align: right;
+}
+.background-img{
+       background:  url('assets/img/bird_03.png') 95% 50% 
+       no-repeat padding-box, url('assets/img/bg-only.png') 0%,0%
+       no-repeat   fixed;
+    background-size: auto,contain;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+.site-logo{
+    width: 70px;
+    height:34px;
+    background: url('assets/img/m.png') 100% 50% no-repeat, url('assets/img/logo.png') 0% 50%  no-repeat padding-box;
+    background-size: auto ,contain;
+    margin-left:20px;
+}
+    
+    
+
+    .lang-icon{
+        width: 20px;
+        height: 20px;
+        background: url('assets/img/globe-2.png') no-repeat;
+        background-size: cover;
+        align-self: center;
+      }
+      .help-icon{
+        width: 20px;
+        margin-left: 5px;
+        height: 20px;
+        align-self: center;
+        background: url('assets/img/Group.png') no-repeat;
+      }

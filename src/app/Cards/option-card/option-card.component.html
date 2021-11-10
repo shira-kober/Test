@@ -1,0 +1,26 @@
+<div class="card" >
+    <span [ngClass]="'icon '+cardData.img"></span>
+    
+    <div class="card-body">
+     <h5 class="card-title">{{cardData.title}}</h5>
+    <b>מה נדרש להרשמה זו?</b>
+    <div class="card-text">
+    <div *ngIf="cardData.subTitle">
+     {{cardData.subTitle}}
+    </div>
+<li *ngFor="let opt of cardData.optionList" [innerHTML]="opt"></li>
+
+<a *ngIf="cardData.link" 
+    [popover]="details" placement="left"  containerClass="bubble">{{cardData.link}}</a>
+    
+</div>
+    </div>
+    <div class="card-footer">
+            <button>{{cardData.buttonText}}</button>
+    </div>
+  </div> 
+
+  <ng-template #details>
+    <b>רשימת אמצעי זיהוי</b> <span class="material-icons-outlined" (click)="close()">close</span>
+<li *ngFor="let row of Details" >{{row}}</li>
+  </ng-template>
